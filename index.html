@@ -8,31 +8,43 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>2048 by BebekJK</h1>
-    <button type="reset">New Game</button>
-    <div id="score">
-        <div>Score</div>
-        <div id="val">0</div>
-    </div>
-    <div id="best">
-        <div>Best</div>
-        <div id="bestVal">0</div>
-    </div>
-    <div id="container">
-        <div class="row">
-            <div class="col" id="1">1</div><div class="col" id="2">2</div><div class="col" id="3">3</div><div class="col" id="4">4</div>
+    
+    
+    <div id="upperBody">
+        <h1>2048 by BebekJK</h1>
+        <button type="reset">New Game</button>
+        <div id="score">
+            <div>Score</div>
+            <div id="val">0</div>
         </div>
-        <div class="row">
-            <div class="col" id="5">5</div><div class="col" id="6">6</div><div class="col" id="7">7</div><div class="col" id="8">8</div>
-        </div>
-        <div class="row">
-            <div class="col">9</div><div class="col">10</div><div class="col">11</div><div class="col">12</div>
-        </div>
-        <div class="row">
-            <div class="col">13</div><div class="col">14</div><div class="col">15</div><div class="col">16</div>
+        <div id="best">
+            <div>Best</div>
+            <div id="bestVal">0</div>
         </div>
     </div>
 
+    <div id="gomid">
+        <div id="container">
+            <div class="row">
+                <div class="col" id="1">1</div><div class="col" id="2">2</div><div class="col" id="3">3</div><div class="col" id="4">4</div>
+            </div>
+            <div class="row">
+                <div class="col" id="5">5</div><div class="col" id="6">6</div><div class="col" id="7">7</div><div class="col" id="8">8</div>
+            </div>
+            <div class="row">
+                <div class="col">9</div><div class="col">10</div><div class="col">11</div><div class="col">12</div>
+            </div>
+            <div class="row">
+                <div class="col">13</div><div class="col">14</div><div class="col">15</div><div class="col">16</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="endText">
+        <div id="gameOver">Game Over!</div>
+        <button type="reset" id="retry">Retry!</button>
+    </div>
+    
     <script src="app.js"></script>
 </body>
 </html>

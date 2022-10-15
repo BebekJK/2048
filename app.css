@@ -1,9 +1,11 @@
 body{
     /* display: flex; */
     background-color: #C6D8FF;
-
 }
-
+#gomid{
+    display: flex;
+    justify-content: center;
+}
 #container{
     width: 600px;
     height: 600px;
@@ -70,4 +72,32 @@ button:hover{
 #val , #bestVal{
     font-size: 25px;
     padding-bottom: 5px;
+}
+
+#gameOver{
+    font-size: 60px;
+    position: relative;
+
+    top : -360px;
+    left : 150px;
+    width: 500px;
+}
+
+#retry{
+    position: relative;
+    top: -360px;
+    left: 250px;
+    width: auto;
+}
+
+#upperBody{
+    position: relative;
+    left: 430px;
+    width: 600px;
+}
+
+#endText{
+    position: relative;
+    left: 430px;
+    width: 600px;
 }
