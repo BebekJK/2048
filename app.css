@@ -74,30 +74,23 @@ button:hover{
     padding-bottom: 5px;
 }
 
-#gameOver{
+ #gameOver{
     font-size: 60px;
-    position: relative;
-
-    top : -360px;
-    left : 150px;
-    width: 500px;
 }
 
 #retry{
     position: relative;
-    top: -360px;
-    left: 250px;
-    width: auto;
+    left: 100px;
 }
 
 #upperBody{
-    position: relative;
-    left: 430px;
-    width: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 #endText{
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 430px;
-    width: 600px;
+    top: -360px;
 }

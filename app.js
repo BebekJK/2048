@@ -17,6 +17,7 @@ for(div of allDiv){
 
 gameOver.style.visibility = "hidden";
 retryButton.style.visibility = "hidden";
+
 const setColor = (num) => {
     let constant = Math.log2(num);
 
