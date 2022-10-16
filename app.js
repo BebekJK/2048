@@ -189,6 +189,7 @@ const isGameOver = () => {
     
 }
 body.addEventListener('keydown' , (e) => {
+    e.preventDefault();
     switch(e.keyCode){
         case 37:
             copy();
@@ -224,8 +225,6 @@ body.addEventListener('keydown' , (e) => {
     }
     
 })
-
-
 
 
 const newGame = () => {
