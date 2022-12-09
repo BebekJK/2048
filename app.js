@@ -21,9 +21,9 @@ retryButton.style.visibility = "hidden";
 const setColor = (num) => {
     let constant = Math.log2(num);
 
-    let red = 198 - 191*constant/17;
-    let green = 216 - 200*constant/17;
-    let blue = 255 - 190*constant/17;
+    let red = 252 - 191*constant/17;
+    let green = 185 - 185*constant/17;
+    let blue = 178 - 178*constant/17;
 
     red = Math.floor(red);
     green = Math.floor(green);
@@ -43,7 +43,7 @@ const randomPositionGenerator = () => Math.floor(Math.random()*4)
 
 const assignValue = () => {
     let row , col;
-    do{
+    do {
         row = randomPositionGenerator();
         col = randomPositionGenerator();
     } while(grid[row][col] != 0);
@@ -59,7 +59,7 @@ const display = () => {
             }
             else {
                 allDiv[4*i+j].innerText = "";
-                allDiv[4*i+j].style.backgroundColor = "#4C1036";
+                allDiv[4*i+j].style.backgroundColor = "#461220";
             }
         }
     }
